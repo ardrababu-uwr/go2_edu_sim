@@ -1,0 +1,323 @@
+[0.026s] Invoking command in '/home/ardra/go_sim/build/quadropted_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ardra/go_sim/src/quadropted_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ardra/go_sim/install/quadropted_msgs
+[0.159s] -- The C compiler identification is GNU 13.3.0
+[0.281s] -- The CXX compiler identification is GNU 13.3.0
+[0.308s] -- Detecting C compiler ABI info
+[0.467s] -- Detecting C compiler ABI info - done
+[0.484s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.485s] -- Detecting C compile features
+[0.486s] -- Detecting C compile features - done
+[0.503s] -- Detecting CXX compiler ABI info
+[0.685s] -- Detecting CXX compiler ABI info - done
+[0.702s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.702s] -- Detecting CXX compile features
+[0.703s] -- Detecting CXX compile features - done
+[0.713s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.955s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.071s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.170s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.260s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.289s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.321s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.360s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.452s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.485s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.516s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.802s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.323s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.330s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.541s] -- Found PythonExtra: /usr/bin/python3  
+[5.109s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[5.223s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[5.275s] -- Added test 'lint_cmake' to check CMake code style
+[5.277s] -- Added test 'xmllint' to check XML markup files
+[5.282s] -- Configuring done (5.2s)
+[5.336s] -- Generating done (0.0s)
+[5.350s] -- Build files have been written to: /home/ardra/go_sim/build/quadropted_msgs
+[5.362s] Invoked command in '/home/ardra/go_sim/build/quadropted_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ardra/go_sim/src/quadropted_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ardra/go_sim/install/quadropted_msgs
+[5.363s] Invoking command in '/home/ardra/go_sim/build/quadropted_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ardra/go_sim/build/quadropted_msgs -- -j16 -l16
+[5.437s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[5.448s] [  1%] Built target ament_cmake_python_symlink_quadropted_msgs
+[5.765s] running egg_info
+[5.767s] creating quadropted_msgs.egg-info
+[5.804s] writing quadropted_msgs.egg-info/PKG-INFO
+[5.804s] writing dependency_links to quadropted_msgs.egg-info/dependency_links.txt
+[5.805s] writing top-level names to quadropted_msgs.egg-info/top_level.txt
+[5.805s] writing manifest file 'quadropted_msgs.egg-info/SOURCES.txt'
+[5.921s] reading manifest file 'quadropted_msgs.egg-info/SOURCES.txt'
+[5.922s] writing manifest file 'quadropted_msgs.egg-info/SOURCES.txt'
+[5.964s] [  1%] Built target ament_cmake_python_build_quadropted_msgs_egg
+[5.976s] [  1%] Built target quadropted_msgs__rosidl_generator_type_description
+[5.993s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.007s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.765s] [  4%] Built target quadropted_msgs__cpp
+[6.878s] [  5%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadropted_msgs/msg/detail/robot_velocity__functions.c.o[0m
+[6.878s] [  6%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadropted_msgs/msg/detail/robot_velocity__type_support.c.o[0m
+[6.879s] [  8%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadropted_msgs/msg/detail/robot_velocity__description.c.o[0m
+[6.879s] [  9%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadropted_msgs/msg/detail/robot_foot_contact__functions.c.o[0m
+[6.879s] [ 10%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadropted_msgs/msg/detail/robot_gait_command__description.c.o[0m
+[6.879s] [ 12%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadropted_msgs/msg/detail/robot_gait_command__type_support.c.o[0m
+[6.880s] [ 13%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadropted_msgs/msg/detail/robot_gait_command__functions.c.o[0m
+[6.880s] [ 14%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadropted_msgs/srv/detail/robot_behavior_command__description.c.o[0m
+[6.880s] [ 16%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadropted_msgs/msg/detail/robot_mode_command__description.c.o[0m
+[6.880s] [ 17%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadropted_msgs/msg/detail/robot_mode_command__functions.c.o[0m
+[6.880s] [ 20%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadropted_msgs/msg/detail/robot_mode_command__type_support.c.o[0m
+[6.881s] [ 21%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadropted_msgs/msg/detail/robot_foot_contact__description.c.o[0m
+[6.881s] [ 20%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadropted_msgs/msg/detail/robot_foot_contact__type_support.c.o[0m
+[6.881s] [ 22%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadropted_msgs/srv/detail/robot_behavior_command__functions.c.o[0m
+[6.882s] [ 24%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_c.dir/rosidl_generator_c/quadropted_msgs/srv/detail/robot_behavior_command__type_support.c.o[0m
+[7.031s] [ 25%] [32m[1mLinking C shared library libquadropted_msgs__rosidl_generator_c.so[0m
+[7.101s] [ 25%] Built target quadropted_msgs__rosidl_generator_c
+[7.120s] [ 27%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.120s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.121s] [ 29%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.121s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.121s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.122s] [ 33%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.835s] [ 35%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/quadropted_msgs/msg/robot_velocity__type_support.cpp.o[0m
+[7.840s] [ 36%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/quadropted_msgs/msg/robot_gait_command__type_support.cpp.o[0m
+[7.841s] [ 37%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/quadropted_msgs/msg/robot_foot_contact__type_support.cpp.o[0m
+[7.842s] [ 39%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/quadropted_msgs/msg/robot_mode_command__type_support.cpp.o[0m
+[7.843s] [ 40%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/quadropted_msgs/srv/robot_behavior_command__type_support.cpp.o[0m
+[7.854s] [ 41%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quadropted_msgs/msg/robot_foot_contact__type_support.cpp.o[0m
+[7.855s] [ 43%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quadropted_msgs/msg/robot_velocity__type_support.cpp.o[0m
+[7.855s] [ 44%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quadropted_msgs/msg/robot_mode_command__type_support.cpp.o[0m
+[7.856s] [ 45%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quadropted_msgs/msg/robot_gait_command__type_support.cpp.o[0m
+[7.858s] [ 47%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quadropted_msgs/srv/robot_behavior_command__type_support.cpp.o[0m
+[7.967s] [ 48%] [32m[1mLinking CXX shared library libquadropted_msgs__rosidl_typesupport_c.so[0m
+[8.001s] [ 50%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quadropted_msgs/msg/detail/robot_velocity__type_support.cpp.o[0m
+[8.002s] [ 52%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quadropted_msgs/msg/detail/robot_gait_command__type_support.cpp.o[0m
+[8.002s] [ 52%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quadropted_msgs/msg/detail/robot_mode_command__type_support.cpp.o[0m
+[8.002s] [ 54%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quadropted_msgs/msg/detail/robot_foot_contact__type_support.cpp.o[0m
+[8.002s] [ 55%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quadropted_msgs/srv/detail/robot_behavior_command__type_support.cpp.o[0m
+[8.025s] [ 56%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadropted_msgs/msg/detail/robot_mode_command__type_support.c.o[0m
+[8.025s] [ 58%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadropted_msgs/msg/detail/robot_gait_command__type_support.c.o[0m
+[8.026s] [ 59%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadropted_msgs/msg/detail/robot_velocity__type_support.c.o[0m
+[8.065s] [ 59%] Built target quadropted_msgs__rosidl_typesupport_c
+[8.083s] [ 60%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadropted_msgs/msg/detail/robot_foot_contact__type_support.c.o[0m
+[8.118s] [ 62%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quadropted_msgs/srv/detail/robot_behavior_command__type_support.c.o[0m
+[8.255s] [ 63%] [32m[1mLinking C shared library libquadropted_msgs__rosidl_typesupport_introspection_c.so[0m
+[8.320s] [ 64%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quadropted_msgs/msg/detail/dds_fastrtps/robot_velocity__type_support.cpp.o[0m
+[8.322s] [ 66%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quadropted_msgs/msg/detail/dds_fastrtps/robot_foot_contact__type_support.cpp.o[0m
+[8.322s] [ 67%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quadropted_msgs/msg/detail/dds_fastrtps/robot_gait_command__type_support.cpp.o[0m
+[8.330s] [ 68%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quadropted_msgs/msg/detail/dds_fastrtps/robot_mode_command__type_support.cpp.o[0m
+[8.334s] [ 68%] Built target quadropted_msgs__rosidl_typesupport_introspection_c
+[8.363s] [ 70%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quadropted_msgs/srv/detail/dds_fastrtps/robot_behavior_command__type_support.cpp.o[0m
+[8.637s] [ 71%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quadropted_msgs/msg/detail/robot_velocity__type_support_c.cpp.o[0m
+[8.674s] [ 72%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quadropted_msgs/msg/detail/robot_gait_command__type_support_c.cpp.o[0m
+[8.677s] [ 74%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quadropted_msgs/msg/detail/robot_mode_command__type_support_c.cpp.o[0m
+[8.694s] [ 75%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quadropted_msgs/msg/detail/robot_foot_contact__type_support_c.cpp.o[0m
+[8.740s] [ 77%] [32mBuilding CXX object CMakeFiles/quadropted_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quadropted_msgs/srv/detail/robot_behavior_command__type_support_c.cpp.o[0m
+[8.924s] [ 78%] [32m[1mLinking CXX shared library libquadropted_msgs__rosidl_typesupport_cpp.so[0m
+[9.067s] [ 78%] Built target quadropted_msgs__rosidl_typesupport_cpp
+[9.075s] [ 79%] [32m[1mLinking CXX shared library libquadropted_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[9.204s] [ 79%] Built target quadropted_msgs__rosidl_typesupport_introspection_cpp
+[9.565s] [ 81%] [32m[1mLinking CXX shared library libquadropted_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.678s] [ 81%] Built target quadropted_msgs__rosidl_typesupport_fastrtps_cpp
+[9.780s] [ 82%] [32m[1mLinking CXX shared library libquadropted_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[9.885s] [ 82%] Built target quadropted_msgs__rosidl_typesupport_fastrtps_c
+[9.914s] [ 82%] Built target quadropted_msgs
+[9.952s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[10.905s] [ 83%] Built target quadropted_msgs__py
+[10.938s] [ 85%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_py.dir/rosidl_generator_py/quadropted_msgs/msg/_robot_velocity_s.c.o[0m
+[10.939s] [ 86%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_py.dir/rosidl_generator_py/quadropted_msgs/msg/_robot_gait_command_s.c.o[0m
+[10.939s] [ 87%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_py.dir/rosidl_generator_py/quadropted_msgs/msg/_robot_mode_command_s.c.o[0m
+[10.940s] [ 89%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_py.dir/rosidl_generator_py/quadropted_msgs/msg/_robot_foot_contact_s.c.o[0m
+[10.940s] [ 90%] [32mBuilding C object CMakeFiles/quadropted_msgs__rosidl_generator_py.dir/rosidl_generator_py/quadropted_msgs/srv/_robot_behavior_command_s.c.o[0m
+[11.170s] [ 91%] [32m[1mLinking C shared library libquadropted_msgs__rosidl_generator_py.so[0m
+[11.242s] [ 91%] Built target quadropted_msgs__rosidl_generator_py
+[11.279s] [ 93%] [32mBuilding C object CMakeFiles/quadropted_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/quadropted_msgs/_quadropted_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[11.280s] [ 94%] [32mBuilding C object CMakeFiles/quadropted_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/quadropted_msgs/_quadropted_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[11.281s] [ 95%] [32mBuilding C object CMakeFiles/quadropted_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/quadropted_msgs/_quadropted_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[11.449s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/quadropted_msgs/quadropted_msgs_s__rosidl_typesupport_c.so[0m
+[11.449s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/quadropted_msgs/quadropted_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[11.451s] [100%] [32m[1mLinking C shared module rosidl_generator_py/quadropted_msgs/quadropted_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[11.490s] [100%] Built target quadropted_msgs_s__rosidl_typesupport_c
+[11.491s] [100%] Built target quadropted_msgs_s__rosidl_typesupport_introspection_c
+[11.493s] [100%] Built target quadropted_msgs_s__rosidl_typesupport_fastrtps_c
+[11.513s] Invoked command in '/home/ardra/go_sim/build/quadropted_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ardra/go_sim/build/quadropted_msgs -- -j16 -l16
+[11.515s] Invoking command in '/home/ardra/go_sim/build/quadropted_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ardra/go_sim/build/quadropted_msgs
+[11.529s] -- Install configuration: ""
+[11.531s] -- Execute custom install script
+[11.531s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/ament_index/resource_index/rosidl_interfaces/quadropted_msgs
+[11.547s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/msg/RobotVelocity.json
+[11.562s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/msg/RobotGaitCommand.json
+[11.577s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/msg/RobotModeCommand.json
+[11.592s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/msg/RobotFootContact.json
+[11.609s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/srv/RobotBehaviorCommand.json
+[11.625s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_foot_contact__functions.h
+[11.641s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_foot_contact__struct.h
+[11.655s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_foot_contact__type_support.h
+[11.670s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_gait_command__functions.h
+[11.684s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_gait_command__struct.h
+[11.698s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_gait_command__type_support.h
+[11.714s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_mode_command__functions.h
+[11.729s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_mode_command__struct.h
+[11.744s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_mode_command__type_support.h
+[11.759s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_velocity__functions.h
+[11.774s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_velocity__struct.h
+[11.788s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_velocity__type_support.h
+[11.803s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/robot_foot_contact.h
+[11.819s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/robot_gait_command.h
+[11.834s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/robot_mode_command.h
+[11.849s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/robot_velocity.h
+[11.864s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/rosidl_generator_c__visibility_control.h
+[11.879s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/robot_behavior_command__functions.h
+[11.894s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/robot_behavior_command__struct.h
+[11.909s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/robot_behavior_command__type_support.h
+[11.925s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/robot_behavior_command.h
+[11.940s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/environment/library_path.sh
+[11.955s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/environment/library_path.dsv
+[11.971s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_foot_contact__rosidl_typesupport_fastrtps_c.h
+[11.985s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_gait_command__rosidl_typesupport_fastrtps_c.h
+[12.001s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_mode_command__rosidl_typesupport_fastrtps_c.h
+[12.016s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_velocity__rosidl_typesupport_fastrtps_c.h
+[12.031s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.046s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/robot_behavior_command__rosidl_typesupport_fastrtps_c.h
+[12.062s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_foot_contact__builder.hpp
+[12.077s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_foot_contact__struct.hpp
+[12.091s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_foot_contact__traits.hpp
+[12.106s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_foot_contact__type_support.hpp
+[12.121s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_gait_command__builder.hpp
+[12.136s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_gait_command__struct.hpp
+[12.151s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_gait_command__traits.hpp
+[12.166s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_gait_command__type_support.hpp
+[12.181s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_mode_command__builder.hpp
+[12.195s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_mode_command__struct.hpp
+[12.212s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_mode_command__traits.hpp
+[12.226s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_mode_command__type_support.hpp
+[12.242s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_velocity__builder.hpp
+[12.257s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_velocity__struct.hpp
+[12.272s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_velocity__traits.hpp
+[12.287s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_velocity__type_support.hpp
+[12.302s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/robot_foot_contact.hpp
+[12.318s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/robot_gait_command.hpp
+[12.333s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/robot_mode_command.hpp
+[12.348s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/robot_velocity.hpp
+[12.363s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[12.378s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/robot_behavior_command__builder.hpp
+[12.393s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/robot_behavior_command__struct.hpp
+[12.408s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/robot_behavior_command__traits.hpp
+[12.424s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/robot_behavior_command__type_support.hpp
+[12.438s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/robot_behavior_command.hpp
+[12.454s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_foot_contact__rosidl_typesupport_fastrtps_cpp.hpp
+[12.469s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_gait_command__rosidl_typesupport_fastrtps_cpp.hpp
+[12.484s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_mode_command__rosidl_typesupport_fastrtps_cpp.hpp
+[12.499s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_velocity__rosidl_typesupport_fastrtps_cpp.hpp
+[12.515s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.531s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/robot_behavior_command__rosidl_typesupport_fastrtps_cpp.hpp
+[12.548s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_foot_contact__rosidl_typesupport_introspection_c.h
+[12.563s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_gait_command__rosidl_typesupport_introspection_c.h
+[12.578s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_mode_command__rosidl_typesupport_introspection_c.h
+[12.594s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_velocity__rosidl_typesupport_introspection_c.h
+[12.609s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.625s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/robot_behavior_command__rosidl_typesupport_introspection_c.h
+[12.641s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_foot_contact__rosidl_typesupport_introspection_cpp.hpp
+[12.657s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_gait_command__rosidl_typesupport_introspection_cpp.hpp
+[12.672s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_mode_command__rosidl_typesupport_introspection_cpp.hpp
+[12.686s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/msg/detail/robot_velocity__rosidl_typesupport_introspection_cpp.hpp
+[12.702s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/include/quadropted_msgs/quadropted_msgs/srv/detail/robot_behavior_command__rosidl_typesupport_introspection_cpp.hpp
+[12.718s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/environment/pythonpath.sh
+[12.734s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/environment/pythonpath.dsv
+[12.749s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs-0.1.0-py3.12.egg-info/PKG-INFO
+[12.764s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs-0.1.0-py3.12.egg-info/SOURCES.txt
+[12.779s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs-0.1.0-py3.12.egg-info/dependency_links.txt
+[12.794s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs-0.1.0-py3.12.egg-info/top_level.txt
+[12.810s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/__init__.py
+[12.825s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/_quadropted_msgs_s.ep.rosidl_typesupport_c.c
+[12.841s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/_quadropted_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[12.857s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/_quadropted_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[12.872s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/msg/__init__.py
+[12.887s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/msg/_robot_foot_contact.py
+[12.901s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/msg/_robot_foot_contact_s.c
+[12.917s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/msg/_robot_gait_command.py
+[12.933s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/msg/_robot_gait_command_s.c
+[12.949s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/msg/_robot_mode_command.py
+[12.964s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/msg/_robot_mode_command_s.c
+[12.979s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/msg/_robot_velocity.py
+[12.994s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/msg/_robot_velocity_s.c
+[13.009s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/quadropted_msgs_s__rosidl_typesupport_c.so
+[13.025s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/quadropted_msgs_s__rosidl_typesupport_fastrtps_c.so
+[13.040s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/quadropted_msgs_s__rosidl_typesupport_introspection_c.so
+[13.055s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/srv/__init__.py
+[13.070s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/srv/_robot_behavior_command.py
+[13.085s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/srv/_robot_behavior_command_s.c
+[13.100s] -- Up-to-date symlink: /home/ardra/go_sim/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/quadropted_msgs_s__rosidl_typesupport_fastrtps_c.so
+[13.101s] -- Up-to-date symlink: /home/ardra/go_sim/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/quadropted_msgs_s__rosidl_typesupport_introspection_c.so
+[13.101s] -- Up-to-date symlink: /home/ardra/go_sim/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/quadropted_msgs_s__rosidl_typesupport_c.so
+[13.102s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/msg/RobotVelocity.idl
+[13.118s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/msg/RobotGaitCommand.idl
+[13.133s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/msg/RobotModeCommand.idl
+[13.149s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/msg/RobotFootContact.idl
+[13.163s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/srv/RobotBehaviorCommand.idl
+[13.179s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/msg/RobotVelocity.msg
+[13.194s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/msg/RobotGaitCommand.msg
+[13.210s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/msg/RobotModeCommand.msg
+[13.225s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/msg/RobotFootContact.msg
+[13.240s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/srv/RobotBehaviorCommand.srv
+[13.255s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/ament_index/resource_index/package_run_dependencies/quadropted_msgs
+[13.271s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/ament_index/resource_index/parent_prefix_path/quadropted_msgs
+[13.286s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/environment/ament_prefix_path.sh
+[13.301s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/environment/ament_prefix_path.dsv
+[13.316s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/environment/path.sh
+[13.331s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/environment/path.dsv
+[13.346s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/local_setup.bash
+[13.362s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/local_setup.sh
+[13.377s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/local_setup.zsh
+[13.392s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/local_setup.dsv
+[13.408s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/package.dsv
+[13.424s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/ament_index/resource_index/packages/quadropted_msgs
+[13.439s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/cmake/rosidl_cmake-extras.cmake
+[13.455s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.470s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.485s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[13.500s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[13.516s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[13.532s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[13.547s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/cmake/quadropted_msgsConfig.cmake
+[13.562s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/cmake/quadropted_msgsConfig-version.cmake
+[13.577s] -- Symlinking: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/package.xml
+[13.592s] -- Installing: /home/ardra/go_sim/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_generator_c.so
+[13.592s] -- Set non-toolchain portion of runtime path of "/home/ardra/go_sim/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_generator_c.so" to ""
+[13.593s] -- Installing: /home/ardra/go_sim/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_typesupport_fastrtps_c.so
+[13.593s] -- Set non-toolchain portion of runtime path of "/home/ardra/go_sim/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[13.593s] -- Installing: /home/ardra/go_sim/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_typesupport_fastrtps_cpp.so
+[13.594s] -- Set non-toolchain portion of runtime path of "/home/ardra/go_sim/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[13.594s] -- Installing: /home/ardra/go_sim/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_typesupport_introspection_c.so
+[13.594s] -- Set non-toolchain portion of runtime path of "/home/ardra/go_sim/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_typesupport_introspection_c.so" to ""
+[13.594s] -- Installing: /home/ardra/go_sim/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_typesupport_c.so
+[13.595s] -- Set non-toolchain portion of runtime path of "/home/ardra/go_sim/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_typesupport_c.so" to ""
+[13.595s] -- Installing: /home/ardra/go_sim/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_typesupport_introspection_cpp.so
+[13.595s] -- Set non-toolchain portion of runtime path of "/home/ardra/go_sim/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[13.596s] -- Installing: /home/ardra/go_sim/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_typesupport_cpp.so
+[13.596s] -- Set non-toolchain portion of runtime path of "/home/ardra/go_sim/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_typesupport_cpp.so" to ""
+[13.677s] Listing '/home/ardra/go_sim/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs'...
+[13.677s] Compiling '/home/ardra/go_sim/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/__init__.py'...
+[13.677s] Listing '/home/ardra/go_sim/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/msg'...
+[13.677s] Compiling '/home/ardra/go_sim/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/msg/__init__.py'...
+[13.678s] Compiling '/home/ardra/go_sim/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/msg/_robot_foot_contact.py'...
+[13.678s] Compiling '/home/ardra/go_sim/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/msg/_robot_gait_command.py'...
+[13.678s] Compiling '/home/ardra/go_sim/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/msg/_robot_mode_command.py'...
+[13.678s] Compiling '/home/ardra/go_sim/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/msg/_robot_velocity.py'...
+[13.678s] Listing '/home/ardra/go_sim/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/srv'...
+[13.678s] Compiling '/home/ardra/go_sim/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/srv/__init__.py'...
+[13.678s] Compiling '/home/ardra/go_sim/install/quadropted_msgs/lib/python3.12/site-packages/quadropted_msgs/srv/_robot_behavior_command.py'...
+[13.683s] -- Installing: /home/ardra/go_sim/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_generator_py.so
+[13.683s] -- Set non-toolchain portion of runtime path of "/home/ardra/go_sim/install/quadropted_msgs/lib/libquadropted_msgs__rosidl_generator_py.so" to ""
+[13.683s] -- Installing: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/cmake/export_quadropted_msgs__rosidl_generator_cExport.cmake
+[13.683s] -- Installing: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/cmake/export_quadropted_msgs__rosidl_generator_cExport-noconfig.cmake
+[13.683s] -- Installing: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/cmake/export_quadropted_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[13.683s] -- Installing: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/cmake/export_quadropted_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[13.683s] -- Installing: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/cmake/export_quadropted_msgs__rosidl_generator_cppExport.cmake
+[13.684s] -- Installing: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/cmake/export_quadropted_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[13.684s] -- Installing: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/cmake/export_quadropted_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[13.684s] -- Installing: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/cmake/quadropted_msgs__rosidl_typesupport_introspection_cExport.cmake
+[13.684s] -- Installing: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/cmake/quadropted_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[13.684s] -- Installing: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/cmake/quadropted_msgs__rosidl_typesupport_cExport.cmake
+[13.684s] -- Installing: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/cmake/quadropted_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[13.684s] -- Installing: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/cmake/quadropted_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[13.684s] -- Installing: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/cmake/quadropted_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[13.685s] -- Installing: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/cmake/quadropted_msgs__rosidl_typesupport_cppExport.cmake
+[13.685s] -- Installing: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/cmake/quadropted_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[13.685s] -- Installing: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/cmake/export_quadropted_msgs__rosidl_generator_pyExport.cmake
+[13.685s] -- Installing: /home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/cmake/export_quadropted_msgs__rosidl_generator_pyExport-noconfig.cmake
+[13.688s] Invoked command in '/home/ardra/go_sim/build/quadropted_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ardra/go_sim/build/quadropted_msgs

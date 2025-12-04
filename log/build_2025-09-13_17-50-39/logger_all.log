@@ -1,0 +1,448 @@
+[0.209s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.210s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7a8113445b50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a81134456a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a81134456a0>>, mixin_verb=('build',))
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.270s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ardra/go_sim'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/docker) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/docker) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/docker) by extension 'ignore_ament_install'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/docker) by extensions ['colcon_pkg']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/docker) by extension 'colcon_pkg'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/docker) by extensions ['colcon_meta']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/docker) by extension 'colcon_meta'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/docker) by extensions ['ros']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/docker) by extension 'ros'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/docker) by extensions ['cmake', 'python']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/docker) by extension 'cmake'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/docker) by extension 'python'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/docker) by extensions ['python_setup_py']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/docker) by extension 'python_setup_py'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_sim) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_sim) by extension 'ignore_ament_install'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_sim) by extensions ['colcon_pkg']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_sim) by extension 'colcon_pkg'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_sim) by extensions ['colcon_meta']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_sim) by extension 'colcon_meta'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_sim) by extensions ['ros']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_sim) by extension 'ros'
+[0.302s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_sim' with type 'ros.ament_cmake' and name 'gazebo_sim'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/go1_description) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/go1_description) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/go1_description) by extension 'ignore_ament_install'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/go1_description) by extensions ['colcon_pkg']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/go1_description) by extension 'colcon_pkg'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/go1_description) by extensions ['colcon_meta']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/go1_description) by extension 'colcon_meta'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/go1_description) by extensions ['ros']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/go1_description) by extension 'ros'
+[0.305s] DEBUG:colcon.colcon_core.package_identification:Package 'src/go1_description' with type 'ros.ament_cmake' and name 'go1_description'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_description) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_description) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_description) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_description) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_description) by extensions ['colcon_meta']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_description) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_description) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_description) by extension 'ros'
+[0.306s] DEBUG:colcon.colcon_core.package_identification:Package 'src/go2_description' with type 'ros.ament_cmake' and name 'go2_description'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/media) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/media) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/media) by extension 'ignore_ament_install'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/media) by extensions ['colcon_pkg']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/media) by extension 'colcon_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/media) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/media) by extension 'colcon_meta'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/media) by extensions ['ros']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/media) by extension 'ros'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/media) by extensions ['cmake', 'python']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/media) by extension 'cmake'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/media) by extension 'python'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/media) by extensions ['python_setup_py']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/media) by extension 'python_setup_py'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadropted_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadropted_controller) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadropted_controller) by extension 'ignore_ament_install'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadropted_controller) by extensions ['colcon_pkg']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadropted_controller) by extension 'colcon_pkg'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadropted_controller) by extensions ['colcon_meta']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadropted_controller) by extension 'colcon_meta'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadropted_controller) by extensions ['ros']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadropted_controller) by extension 'ros'
+[0.308s] DEBUG:colcon.colcon_core.package_identification:Package 'src/quadropted_controller' with type 'ros.ament_cmake' and name 'quadropted_controller'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadropted_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadropted_msgs) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadropted_msgs) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadropted_msgs) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadropted_msgs) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadropted_msgs) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadropted_msgs) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadropted_msgs) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadropted_msgs) by extension 'ros'
+[0.308s] DEBUG:colcon.colcon_core.package_identification:Package 'src/quadropted_msgs' with type 'ros.ament_cmake' and name 'quadropted_msgs'
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.338s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 420 installed packages in /opt/ros/jazzy
+[0.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'gazebo_sim' build argument 'cmake_args' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'gazebo_sim' build argument 'cmake_target' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'gazebo_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'gazebo_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'gazebo_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'gazebo_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'gazebo_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'gazebo_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'gazebo_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.392s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ardra/go_sim/build/gazebo_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ardra/go_sim/install/gazebo_sim', 'merge_install': False, 'path': '/home/ardra/go_sim/src/gazebo_sim', 'symlink_install': True, 'test_result_base': None}
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'go1_description' build argument 'cmake_args' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'go1_description' build argument 'cmake_target' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'go1_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'go1_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'go1_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'go1_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'go1_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'go1_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'go1_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.393s] DEBUG:colcon.colcon_core.verb:Building package 'go1_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ardra/go_sim/build/go1_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ardra/go_sim/install/go1_description', 'merge_install': False, 'path': '/home/ardra/go_sim/src/go1_description', 'symlink_install': True, 'test_result_base': None}
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'go2_description' build argument 'cmake_args' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'go2_description' build argument 'cmake_target' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'go2_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'go2_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'go2_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'go2_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'go2_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'go2_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'go2_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.393s] DEBUG:colcon.colcon_core.verb:Building package 'go2_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ardra/go_sim/build/go2_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ardra/go_sim/install/go2_description', 'merge_install': False, 'path': '/home/ardra/go_sim/src/go2_description', 'symlink_install': True, 'test_result_base': None}
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'quadropted_controller' build argument 'cmake_args' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'quadropted_controller' build argument 'cmake_target' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'quadropted_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'quadropted_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'quadropted_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'quadropted_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'quadropted_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'quadropted_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'quadropted_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.393s] DEBUG:colcon.colcon_core.verb:Building package 'quadropted_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ardra/go_sim/build/quadropted_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ardra/go_sim/install/quadropted_controller', 'merge_install': False, 'path': '/home/ardra/go_sim/src/quadropted_controller', 'symlink_install': True, 'test_result_base': None}
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'quadropted_msgs' build argument 'cmake_args' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'quadropted_msgs' build argument 'cmake_target' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'quadropted_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'quadropted_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'quadropted_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'quadropted_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'quadropted_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'quadropted_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'quadropted_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.394s] DEBUG:colcon.colcon_core.verb:Building package 'quadropted_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ardra/go_sim/build/quadropted_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ardra/go_sim/install/quadropted_msgs', 'merge_install': False, 'path': '/home/ardra/go_sim/src/quadropted_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.394s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.395s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.395s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ardra/go_sim/src/gazebo_sim' with build type 'ament_cmake'
+[0.395s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ardra/go_sim/src/gazebo_sim'
+[0.402s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.402s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.403s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.408s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ardra/go_sim/src/go1_description' with build type 'ament_cmake'
+[0.409s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ardra/go_sim/src/go1_description'
+[0.409s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.409s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.414s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ardra/go_sim/src/go2_description' with build type 'ament_cmake'
+[0.414s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ardra/go_sim/src/go2_description'
+[0.414s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.414s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.420s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ardra/go_sim/src/quadropted_controller' with build type 'ament_cmake'
+[0.420s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ardra/go_sim/src/quadropted_controller'
+[0.421s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.421s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.427s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ardra/go_sim/src/quadropted_msgs' with build type 'ament_cmake'
+[0.427s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ardra/go_sim/src/quadropted_msgs'
+[0.427s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.427s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.440s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ardra/go_sim/build/gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ardra/go_sim/src/gazebo_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ardra/go_sim/install/gazebo_sim
+[0.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ardra/go_sim/build/go1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ardra/go_sim/src/go1_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ardra/go_sim/install/go1_description
+[0.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ardra/go_sim/build/go2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ardra/go_sim/src/go2_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ardra/go_sim/install/go2_description
+[0.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ardra/go_sim/build/quadropted_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ardra/go_sim/src/quadropted_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ardra/go_sim/install/quadropted_controller
+[0.454s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ardra/go_sim/build/quadropted_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ardra/go_sim/src/quadropted_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ardra/go_sim/install/quadropted_msgs
+[1.754s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ardra/go_sim/build/quadropted_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ardra/go_sim/src/quadropted_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ardra/go_sim/install/quadropted_controller
+[1.756s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ardra/go_sim/build/quadropted_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ardra/go_sim/build/quadropted_controller -- -j16 -l16
+[1.766s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ardra/go_sim/build/go2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ardra/go_sim/src/go2_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ardra/go_sim/install/go2_description
+[1.767s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ardra/go_sim/build/go2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ardra/go_sim/build/go2_description -- -j16 -l16
+[1.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ardra/go_sim/build/quadropted_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ardra/go_sim/build/quadropted_controller -- -j16 -l16
+[1.827s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ardra/go_sim/build/quadropted_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ardra/go_sim/build/quadropted_controller
+[1.828s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ardra/go_sim/build/go2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ardra/go_sim/build/go2_description -- -j16 -l16
+[1.830s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ardra/go_sim/build/go2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ardra/go_sim/build/go2_description
+[2.094s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(quadropted_controller)
+[2.095s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ardra/go_sim/build/quadropted_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ardra/go_sim/build/quadropted_controller
+[2.105s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/quadropted_controller' for CMake module files
+[2.106s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/quadropted_controller' for CMake config files
+[2.106s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadropted_controller', 'cmake_prefix_path')
+[2.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ardra/go_sim/install/quadropted_controller/share/quadropted_controller/hook/cmake_prefix_path.ps1'
+[2.108s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ardra/go_sim/install/quadropted_controller/share/quadropted_controller/hook/cmake_prefix_path.dsv'
+[2.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ardra/go_sim/install/quadropted_controller/share/quadropted_controller/hook/cmake_prefix_path.sh'
+[2.110s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/quadropted_controller/lib'
+[2.111s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/quadropted_controller/bin'
+[2.111s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/quadropted_controller/lib/pkgconfig/quadropted_controller.pc'
+[2.111s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/quadropted_controller/lib/python3.12/site-packages'
+[2.111s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/quadropted_controller/bin'
+[2.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/ardra/go_sim/install/quadropted_controller/share/quadropted_controller/package.ps1'
+[2.113s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ardra/go_sim/install/quadropted_controller/share/quadropted_controller/package.dsv'
+[2.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/ardra/go_sim/install/quadropted_controller/share/quadropted_controller/package.sh'
+[2.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/ardra/go_sim/install/quadropted_controller/share/quadropted_controller/package.bash'
+[2.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/ardra/go_sim/install/quadropted_controller/share/quadropted_controller/package.zsh'
+[2.118s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ardra/go_sim/install/quadropted_controller/share/colcon-core/packages/quadropted_controller)
+[2.119s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(quadropted_controller)
+[2.119s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/quadropted_controller' for CMake module files
+[2.120s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/quadropted_controller' for CMake config files
+[2.121s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadropted_controller', 'cmake_prefix_path')
+[2.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ardra/go_sim/install/quadropted_controller/share/quadropted_controller/hook/cmake_prefix_path.ps1'
+[2.121s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ardra/go_sim/install/quadropted_controller/share/quadropted_controller/hook/cmake_prefix_path.dsv'
+[2.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ardra/go_sim/install/quadropted_controller/share/quadropted_controller/hook/cmake_prefix_path.sh'
+[2.123s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/quadropted_controller/lib'
+[2.123s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/quadropted_controller/bin'
+[2.123s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/quadropted_controller/lib/pkgconfig/quadropted_controller.pc'
+[2.123s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/quadropted_controller/lib/python3.12/site-packages'
+[2.124s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/quadropted_controller/bin'
+[2.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/ardra/go_sim/install/quadropted_controller/share/quadropted_controller/package.ps1'
+[2.124s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ardra/go_sim/install/quadropted_controller/share/quadropted_controller/package.dsv'
+[2.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/ardra/go_sim/install/quadropted_controller/share/quadropted_controller/package.sh'
+[2.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/ardra/go_sim/install/quadropted_controller/share/quadropted_controller/package.bash'
+[2.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/ardra/go_sim/install/quadropted_controller/share/quadropted_controller/package.zsh'
+[2.128s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ardra/go_sim/install/quadropted_controller/share/colcon-core/packages/quadropted_controller)
+[2.569s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ardra/go_sim/build/gazebo_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ardra/go_sim/src/gazebo_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ardra/go_sim/install/gazebo_sim
+[2.570s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ardra/go_sim/build/gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ardra/go_sim/build/gazebo_sim -- -j16 -l16
+[2.572s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ardra/go_sim/build/go1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ardra/go_sim/src/go1_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ardra/go_sim/install/go1_description
+[2.574s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ardra/go_sim/build/go1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ardra/go_sim/build/go1_description -- -j16 -l16
+[2.627s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ardra/go_sim/build/gazebo_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ardra/go_sim/build/gazebo_sim -- -j16 -l16
+[2.629s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ardra/go_sim/build/gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ardra/go_sim/build/gazebo_sim
+[2.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ardra/go_sim/build/go1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ardra/go_sim/build/go1_description -- -j16 -l16
+[2.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ardra/go_sim/build/go1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ardra/go_sim/build/go1_description
+[2.763s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go2_description)
+[2.764s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ardra/go_sim/build/go2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ardra/go_sim/build/go2_description
+[2.764s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/go2_description' for CMake module files
+[2.765s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/go2_description' for CMake config files
+[2.766s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_description', 'cmake_prefix_path')
+[2.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ardra/go_sim/install/go2_description/share/go2_description/hook/cmake_prefix_path.ps1'
+[2.766s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ardra/go_sim/install/go2_description/share/go2_description/hook/cmake_prefix_path.dsv'
+[2.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ardra/go_sim/install/go2_description/share/go2_description/hook/cmake_prefix_path.sh'
+[2.767s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/go2_description/bin'
+[2.768s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/go2_description/lib/pkgconfig/go2_description.pc'
+[2.768s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/go2_description/lib/python3.12/site-packages'
+[2.768s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/go2_description/bin'
+[2.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/ardra/go_sim/install/go2_description/share/go2_description/package.ps1'
+[2.769s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ardra/go_sim/install/go2_description/share/go2_description/package.dsv'
+[2.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/ardra/go_sim/install/go2_description/share/go2_description/package.sh'
+[2.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/ardra/go_sim/install/go2_description/share/go2_description/package.bash'
+[2.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/ardra/go_sim/install/go2_description/share/go2_description/package.zsh'
+[2.771s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ardra/go_sim/install/go2_description/share/colcon-core/packages/go2_description)
+[2.771s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go2_description)
+[2.772s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/go2_description' for CMake module files
+[2.773s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/go2_description' for CMake config files
+[2.773s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_description', 'cmake_prefix_path')
+[2.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ardra/go_sim/install/go2_description/share/go2_description/hook/cmake_prefix_path.ps1'
+[2.774s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ardra/go_sim/install/go2_description/share/go2_description/hook/cmake_prefix_path.dsv'
+[2.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ardra/go_sim/install/go2_description/share/go2_description/hook/cmake_prefix_path.sh'
+[2.775s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/go2_description/bin'
+[2.775s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/go2_description/lib/pkgconfig/go2_description.pc'
+[2.775s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/go2_description/lib/python3.12/site-packages'
+[2.776s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/go2_description/bin'
+[2.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/ardra/go_sim/install/go2_description/share/go2_description/package.ps1'
+[2.777s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ardra/go_sim/install/go2_description/share/go2_description/package.dsv'
+[2.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/ardra/go_sim/install/go2_description/share/go2_description/package.sh'
+[2.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/ardra/go_sim/install/go2_description/share/go2_description/package.bash'
+[2.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/ardra/go_sim/install/go2_description/share/go2_description/package.zsh'
+[2.779s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ardra/go_sim/install/go2_description/share/colcon-core/packages/go2_description)
+[3.061s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go1_description)
+[3.061s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/go1_description' for CMake module files
+[3.062s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ardra/go_sim/build/go1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ardra/go_sim/build/go1_description
+[3.063s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/go1_description' for CMake config files
+[3.063s] Level 1:colcon.colcon_core.shell:create_environment_hook('go1_description', 'cmake_prefix_path')
+[3.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ardra/go_sim/install/go1_description/share/go1_description/hook/cmake_prefix_path.ps1'
+[3.064s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ardra/go_sim/install/go1_description/share/go1_description/hook/cmake_prefix_path.dsv'
+[3.064s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ardra/go_sim/install/go1_description/share/go1_description/hook/cmake_prefix_path.sh'
+[3.065s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/go1_description/lib'
+[3.065s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/go1_description/bin'
+[3.065s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/go1_description/lib/pkgconfig/go1_description.pc'
+[3.066s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/go1_description/lib/python3.12/site-packages'
+[3.066s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/go1_description/bin'
+[3.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/ardra/go_sim/install/go1_description/share/go1_description/package.ps1'
+[3.067s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ardra/go_sim/install/go1_description/share/go1_description/package.dsv'
+[3.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/ardra/go_sim/install/go1_description/share/go1_description/package.sh'
+[3.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/ardra/go_sim/install/go1_description/share/go1_description/package.bash'
+[3.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/ardra/go_sim/install/go1_description/share/go1_description/package.zsh'
+[3.068s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ardra/go_sim/install/go1_description/share/colcon-core/packages/go1_description)
+[3.069s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go1_description)
+[3.069s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/go1_description' for CMake module files
+[3.070s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/go1_description' for CMake config files
+[3.070s] Level 1:colcon.colcon_core.shell:create_environment_hook('go1_description', 'cmake_prefix_path')
+[3.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ardra/go_sim/install/go1_description/share/go1_description/hook/cmake_prefix_path.ps1'
+[3.071s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ardra/go_sim/install/go1_description/share/go1_description/hook/cmake_prefix_path.dsv'
+[3.071s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ardra/go_sim/install/go1_description/share/go1_description/hook/cmake_prefix_path.sh'
+[3.072s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/go1_description/lib'
+[3.072s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/go1_description/bin'
+[3.072s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/go1_description/lib/pkgconfig/go1_description.pc'
+[3.073s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/go1_description/lib/python3.12/site-packages'
+[3.073s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/go1_description/bin'
+[3.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/ardra/go_sim/install/go1_description/share/go1_description/package.ps1'
+[3.074s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ardra/go_sim/install/go1_description/share/go1_description/package.dsv'
+[3.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/ardra/go_sim/install/go1_description/share/go1_description/package.sh'
+[3.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/ardra/go_sim/install/go1_description/share/go1_description/package.bash'
+[3.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/ardra/go_sim/install/go1_description/share/go1_description/package.zsh'
+[3.076s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ardra/go_sim/install/go1_description/share/colcon-core/packages/go1_description)
+[5.790s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ardra/go_sim/build/quadropted_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ardra/go_sim/src/quadropted_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ardra/go_sim/install/quadropted_msgs
+[5.791s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ardra/go_sim/build/quadropted_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ardra/go_sim/build/quadropted_msgs -- -j16 -l16
+[10.839s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_sim)
+[10.840s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/gazebo_sim' for CMake module files
+[10.840s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ardra/go_sim/build/gazebo_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ardra/go_sim/build/gazebo_sim
+[10.841s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/gazebo_sim' for CMake config files
+[10.842s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_sim', 'cmake_prefix_path')
+[10.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ardra/go_sim/install/gazebo_sim/share/gazebo_sim/hook/cmake_prefix_path.ps1'
+[10.842s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ardra/go_sim/install/gazebo_sim/share/gazebo_sim/hook/cmake_prefix_path.dsv'
+[10.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ardra/go_sim/install/gazebo_sim/share/gazebo_sim/hook/cmake_prefix_path.sh'
+[10.843s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/gazebo_sim/lib'
+[10.844s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/gazebo_sim/bin'
+[10.844s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/gazebo_sim/lib/pkgconfig/gazebo_sim.pc'
+[10.844s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/gazebo_sim/lib/python3.12/site-packages'
+[10.844s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/gazebo_sim/bin'
+[10.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/ardra/go_sim/install/gazebo_sim/share/gazebo_sim/package.ps1'
+[10.845s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ardra/go_sim/install/gazebo_sim/share/gazebo_sim/package.dsv'
+[10.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/ardra/go_sim/install/gazebo_sim/share/gazebo_sim/package.sh'
+[10.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/ardra/go_sim/install/gazebo_sim/share/gazebo_sim/package.bash'
+[10.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/ardra/go_sim/install/gazebo_sim/share/gazebo_sim/package.zsh'
+[10.846s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ardra/go_sim/install/gazebo_sim/share/colcon-core/packages/gazebo_sim)
+[10.847s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_sim)
+[10.847s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/gazebo_sim' for CMake module files
+[10.848s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/gazebo_sim' for CMake config files
+[10.848s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_sim', 'cmake_prefix_path')
+[10.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ardra/go_sim/install/gazebo_sim/share/gazebo_sim/hook/cmake_prefix_path.ps1'
+[10.849s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ardra/go_sim/install/gazebo_sim/share/gazebo_sim/hook/cmake_prefix_path.dsv'
+[10.849s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ardra/go_sim/install/gazebo_sim/share/gazebo_sim/hook/cmake_prefix_path.sh'
+[10.850s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/gazebo_sim/lib'
+[10.850s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/gazebo_sim/bin'
+[10.850s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/gazebo_sim/lib/pkgconfig/gazebo_sim.pc'
+[10.850s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/gazebo_sim/lib/python3.12/site-packages'
+[10.850s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/gazebo_sim/bin'
+[10.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/ardra/go_sim/install/gazebo_sim/share/gazebo_sim/package.ps1'
+[10.851s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ardra/go_sim/install/gazebo_sim/share/gazebo_sim/package.dsv'
+[10.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/ardra/go_sim/install/gazebo_sim/share/gazebo_sim/package.sh'
+[10.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/ardra/go_sim/install/gazebo_sim/share/gazebo_sim/package.bash'
+[10.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/ardra/go_sim/install/gazebo_sim/share/gazebo_sim/package.zsh'
+[10.853s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ardra/go_sim/install/gazebo_sim/share/colcon-core/packages/gazebo_sim)
+[11.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ardra/go_sim/build/quadropted_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ardra/go_sim/build/quadropted_msgs -- -j16 -l16
+[11.943s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ardra/go_sim/build/quadropted_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ardra/go_sim/build/quadropted_msgs
+[14.115s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(quadropted_msgs)
+[14.115s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/quadropted_msgs' for CMake module files
+[14.116s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ardra/go_sim/build/quadropted_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ardra/go_sim/build/quadropted_msgs
+[14.117s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/quadropted_msgs' for CMake config files
+[14.117s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadropted_msgs', 'cmake_prefix_path')
+[14.118s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/hook/cmake_prefix_path.ps1'
+[14.118s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/hook/cmake_prefix_path.dsv'
+[14.118s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/hook/cmake_prefix_path.sh'
+[14.119s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/quadropted_msgs/lib'
+[14.119s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadropted_msgs', 'ld_library_path_lib')
+[14.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/hook/ld_library_path_lib.ps1'
+[14.120s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/hook/ld_library_path_lib.dsv'
+[14.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/hook/ld_library_path_lib.sh'
+[14.120s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/quadropted_msgs/bin'
+[14.120s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/quadropted_msgs/lib/pkgconfig/quadropted_msgs.pc'
+[14.121s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/quadropted_msgs/lib/python3.12/site-packages'
+[14.121s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadropted_msgs', 'pythonpath')
+[14.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/hook/pythonpath.ps1'
+[14.122s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/hook/pythonpath.dsv'
+[14.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/hook/pythonpath.sh'
+[14.123s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/quadropted_msgs/bin'
+[14.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/package.ps1'
+[14.124s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/package.dsv'
+[14.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/package.sh'
+[14.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/package.bash'
+[14.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/package.zsh'
+[14.126s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ardra/go_sim/install/quadropted_msgs/share/colcon-core/packages/quadropted_msgs)
+[14.127s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(quadropted_msgs)
+[14.127s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/quadropted_msgs' for CMake module files
+[14.129s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/quadropted_msgs' for CMake config files
+[14.130s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadropted_msgs', 'cmake_prefix_path')
+[14.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/hook/cmake_prefix_path.ps1'
+[14.131s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/hook/cmake_prefix_path.dsv'
+[14.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/hook/cmake_prefix_path.sh'
+[14.133s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/quadropted_msgs/lib'
+[14.133s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadropted_msgs', 'ld_library_path_lib')
+[14.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/hook/ld_library_path_lib.ps1'
+[14.134s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/hook/ld_library_path_lib.dsv'
+[14.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/hook/ld_library_path_lib.sh'
+[14.135s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/quadropted_msgs/bin'
+[14.135s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/quadropted_msgs/lib/pkgconfig/quadropted_msgs.pc'
+[14.136s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/quadropted_msgs/lib/python3.12/site-packages'
+[14.136s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadropted_msgs', 'pythonpath')
+[14.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/hook/pythonpath.ps1'
+[14.137s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/hook/pythonpath.dsv'
+[14.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/hook/pythonpath.sh'
+[14.138s] Level 1:colcon.colcon_core.environment:checking '/home/ardra/go_sim/install/quadropted_msgs/bin'
+[14.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/package.ps1'
+[14.140s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/package.dsv'
+[14.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/package.sh'
+[14.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/package.bash'
+[14.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/ardra/go_sim/install/quadropted_msgs/share/quadropted_msgs/package.zsh'
+[14.143s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ardra/go_sim/install/quadropted_msgs/share/colcon-core/packages/quadropted_msgs)
+[14.143s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.143s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.143s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[14.143s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.160s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.160s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.160s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.201s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.201s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ardra/go_sim/install/local_setup.ps1'
+[14.204s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ardra/go_sim/install/_local_setup_util_ps1.py'
+[14.206s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ardra/go_sim/install/setup.ps1'
+[14.208s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ardra/go_sim/install/local_setup.sh'
+[14.209s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ardra/go_sim/install/_local_setup_util_sh.py'
+[14.210s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ardra/go_sim/install/setup.sh'
+[14.212s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ardra/go_sim/install/local_setup.bash'
+[14.212s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ardra/go_sim/install/setup.bash'
+[14.214s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ardra/go_sim/install/local_setup.zsh'
+[14.215s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ardra/go_sim/install/setup.zsh'

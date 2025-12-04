@@ -1,0 +1,18 @@
+# System files
+.DS_Store
+
+# Build directories (Common in Robotics/C++)
+build/
+devel/
+install/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Large data
+*.bag
+*.mp4
